@@ -32,6 +32,7 @@ import wanderlust from "./wanderlust.png";
 import ebook from "./ebook.png";
 // import tripguide from "./tripguide.png";
 import pneumonia from "./pneumonia.png";
+import YoutubeVideoToNotesConvertor from "./YoutubeVideoToNotesConvertor.png";
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   // jobit,
   ebook,
   // tripguide,
-  pneumonia
+  pneumonia,
+  YoutubeVideoToNotesConvertor
 };

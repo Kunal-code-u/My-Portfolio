@@ -26,6 +26,7 @@ import {
     // tripguide,
     pneumonia,
     threejs,
+    YoutubeVideoToNotesConvertor
   } from "../assets";
   
   export const navLinks = [
@@ -273,6 +274,29 @@ import {
       image: pneumonia,
       source_code_link: "https://github.com/Kunal-code-u/PneumoniaDetection",
     },
+    {
+      name: "YouTube Transcript to Detailed Notes Converter",
+      description:
+        "This project converts YouTube video transcripts into detailed and concise notes using Google Gemini Pro. Given a YouTube video URL, the app automatically extracts the transcript, generates a structured summary, and displays it on a sleek Streamlit interface.",
+      tags: [
+        {
+          name: "NLP",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Generative-AI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Streamlit",
+          color: "pink-text-gradient",
+        },
+      ],
+      // image: tripguide,
+      image: YoutubeVideoToNotesConvertor,
+      source_code_link: "https://github.com/Kunal-code-u/Youtube-Transcript-to-Detailed-Notes-converter",
+    },
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };
